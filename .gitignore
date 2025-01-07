@@ -1,11 +1,24 @@
-# 忽略所有 __pycache__ 目录
+# Python 缓存文件
 __pycache__/
-
-# 忽略所有 .pyc 文件
 *.pyc
-
-# 忽略所有 .pyo 文件
 *.pyo
-
-# 忽略所有 .pyd 文件
 *.pyd
+
+# 虚拟环境
+venv/
+env/
+.venv/
+
+# IDE 配置文件
+.vscode/
+.idea/
+
+# 日志文件
+*.log
+
+# 本地配置文件
+*.local
+
+# 测试生成的文件
+.pytest_cache/
+.coverage
